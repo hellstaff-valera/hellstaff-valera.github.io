@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Зворотній зв'язок</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Зворотній зв'язок</h1>
+        <form id="mailForm">
+            <input type="email" id="email" name="email" placeholder="Email" class="form-control"></br>
+            <input type="text" id="name" name="name" placeholder="Введіть ім'я" class="form-control"></br>
+            <input type="phone" id="phone" name="phone" placeholder="Телефон" class="form-control"></br>
+            <textarea name="message" id="message" placeholder="Введіть ваше повідомлення" class="form-control"></textarea></br>
+            <button type="button" id="sendMail" class="bt n btn-success">Відправити</button>
+        </form>
+        <div id="errorMess"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/formMail.js"></script>
+</body>
+
+</html>
